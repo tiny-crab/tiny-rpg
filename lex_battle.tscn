@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://coc0sym17qmhw"]
+
+[ext_resource type="Texture2D" uid="uid://cllmjrugj2mtv" path="res://assets/spritesheet.png" id="1_mj8ej"]
+[ext_resource type="Script" path="res://scripts/lex_battle.gd" id="1_qkwoe"]
+
+[node name="LexBattle" type="Node2D"]
+modulate = Color(0.622813, 0.374156, 0.266913, 1)
+script = ExtResource("1_qkwoe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.622813, 0.374156, 0.266913, 1)
+texture = ExtResource("1_mj8ej")
+region_enabled = true
+region_rect = Rect2(80, 512, 16, 16)
